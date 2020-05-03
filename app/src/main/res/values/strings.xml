@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Chaty</string>
+    <string name="create_new_account_button">Create New Account</string>
+    <string name="email_signUp_hint">Phone Number or Email</string>
+    <string name="name_signUp_hint">Name</string>
+    <string name="password_signUp_hint">Password</string>
+    <string name="signUp_button">Sign Up</string>
+    <string name="signIn_button">Sign In</string>
+    <string name="forget_password">FORGET PASSWORD</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="chat_menu_item">Chats</string>
+    <string name="friends_menu_item">friends</string>
+    <string name="more_menu_item">more</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_chat_fragment">Hello Chats fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_friends_fragment">Hello Friends fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_more_fragment">Hello More fragment</string>
+</resources>

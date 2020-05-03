@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+    <EditText
+        android:id="@+id/editText_email_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/too_big_dimen"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="@dimen/too_big_dimen"
+        android:hint="@string/email_signUp_hint"
+        android:inputType="textEmailAddress"
+        android:paddingTop="@dimen/medium_dimen"
+        android:paddingBottom="@dimen/medium_dimen" />
+
+    <EditText
+        android:id="@+id/editText_password_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/too_big_dimen"
+        android:layout_marginTop="@dimen/medium_dimen"
+        android:layout_marginEnd="@dimen/too_big_dimen"
+        android:hint="@string/password_signUp_hint"
+        android:inputType="textPassword"
+        android:paddingTop="@dimen/medium_dimen"
+        android:paddingBottom="@dimen/medium_dimen" />
+    <Button
+        android:id="@+id/signIn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/too_big_dimen"
+        android:layout_marginTop="@dimen/big_dimen"
+        android:layout_marginEnd="@dimen/too_big_dimen"
+        android:background="@drawable/sign_up_button_background"
+        android:enabled="false"
+        android:padding="@dimen/medium_dimen"
+        android:text="@string/signIn_button"
+        android:textColor="@color/sign_up_button_text_status"
+        android:textSize="@dimen/medium_textSize" />
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_dimen"
+        android:layout_marginEnd="@dimen/too_big_dimen"
+        android:layout_marginStart="@dimen/too_big_dimen"
+        android:padding="@dimen/medium_dimen"
+        android:background="@drawable/sign_up_button_background"
+        android:textColor="@color/sign_up_button_text_status"
+        android:text="@string/create_new_account_button" />
+
+    <TextView
+        android:id="@+id/forget_password_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/too_big_dimen"
+        android:layout_marginStart="110dp"
+        android:text="@string/forget_password"
+        android:textSize="@dimen/medium_dimen"
+        android:textColor="@color/black"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+</LinearLayout>
